@@ -1,0 +1,91 @@
+name: Report a bug
+description: Any errors the need fixing
+labels: ["needs triage", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Before you go any further. Is this really a **🐛 bug**?
+
+        If it's a question about how EveryVoice TTS works, have a look at our [documentation](https://docs.everyvoice.ca/)
+        or ask a question on our [Discussion Board](https://github.com/EveryVoiceTTS/EveryVoice/discussions).
+
+  - type: textarea
+    attributes:
+      label: Bug description
+      description: A description of the 🐛bug🐛.
+      placeholder: |
+        A clear and concise description of what the bug is.
+
+        Explain the expected behaviour and the actual behaviour.
+
+        ```
+        The error message you got, with the full traceback if available.
+        ```
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**Note: The rest of this form is optional, but filling it out may help us to provide better support.**"
+
+  - type: textarea
+    attributes:
+      label: How to reproduce the bug
+      description: >
+        Provide steps and example code here to reproduce the bug.
+      placeholder: |
+        ```python
+        # Sample code to reproduce the problem
+        ```
+      render: python
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Error messages and logs
+      description: >
+        Provide any error messages and/or logs
+      placeholder: "# Copy the complete error messages and logs"
+      value: |
+        ```
+        # Error messages and logs here please
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        Please provide details about your environment:
+      value: |
+        <details>
+          <summary>Current environment</summary>
+
+        ```
+        #- EveryVoice Version:
+        #- PyTorch Lightning Version (e.g., 2.4.0):
+        #- PyTorch Version (e.g., 2.4):
+        #- Python version (e.g., 3.12):
+        #- OS (e.g., Linux):
+        #- CUDA/cuDNN version:
+        #- GPU models and configuration:
+        #- How you installed EveryVoice (`conda`, `pip`, source):
+        ```
+
+        </details>
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: More info
+      description: Add any other info about the issue here.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "**Happy engineering!**"

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Ask a Question
+    url: https://github.com/EveryVoiceTTS/EveryVoice/discussions
+    about: Ask and answer EveryVoice TTS related questions.
+  - name: 📖 Read the documentation
+    url: https://docs.everyvoice.ca/
+    about: Please consult the documentation before opening any issues!
