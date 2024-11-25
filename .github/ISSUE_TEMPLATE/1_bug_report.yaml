@@ -73,6 +73,7 @@ body:
         #- CUDA/cuDNN version:
         #- GPU models and configuration:
         #- How you installed EveryVoice (`conda`, `pip`, source):
+        #- Please past the output of `everyvoice --diagnostic`:
         ```
 
         </details>
