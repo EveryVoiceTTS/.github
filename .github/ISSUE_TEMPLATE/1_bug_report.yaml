@@ -59,22 +59,10 @@ body:
     attributes:
       label: Environment
       description: |
-        Please provide details about your environment. Please paste the output of `everyvoice --diagnostic` and answer some of the questions below:
+        Please provide details about your environment by pasting the output of `everyvoice --diagnostic`:
       value: |
         <details>
           <summary>Current environment</summary>
-
-        ```
-        #- EveryVoice Version:
-        #- PyTorch Lightning Version (e.g., 2.4.0):
-        #- PyTorch Version (e.g., 2.4):
-        #- Python version (e.g., 3.12):
-        #- OS (e.g., Linux):
-        #- CUDA/cuDNN version:
-        #- GPU models and configuration:
-        #- How you installed EveryVoice (`conda`, `pip`, source):
-        #- Please paste the output of `everyvoice --diagnostic`:
-        ```
 
         </details>
     validations:
