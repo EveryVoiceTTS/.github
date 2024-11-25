@@ -63,7 +63,12 @@ body:
       value: |
         <details>
           <summary>Current environment</summary>
-
+          ```
+          #- EveryVoice Diagnostic information
+          #- EveryVoice version: 
+          #- Python version: 
+          #- System: 
+          ```
         </details>
     validations:
       required: false
