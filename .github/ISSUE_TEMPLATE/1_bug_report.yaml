@@ -59,7 +59,7 @@ body:
     attributes:
       label: Environment
       description: |
-        Please provide details about your environment:
+        Please provide details about your environment. Please paste the output of `everyvoice --diagnostic` and answer some of the questions below:
       value: |
         <details>
           <summary>Current environment</summary>
@@ -73,7 +73,7 @@ body:
         #- CUDA/cuDNN version:
         #- GPU models and configuration:
         #- How you installed EveryVoice (`conda`, `pip`, source):
-        #- Please past the output of `everyvoice --diagnostic`:
+        #- Please paste the output of `everyvoice --diagnostic`:
         ```
 
         </details>
