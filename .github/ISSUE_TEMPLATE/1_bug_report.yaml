@@ -38,7 +38,6 @@ body:
         ```python
         # Sample code to reproduce the problem
         ```
-      render: python
     validations:
       required: false
 
@@ -62,13 +61,11 @@ body:
         Please provide details about your environment by pasting the output of `everyvoice --diagnostic`:
       value: |
         <details>
-          <summary>Current environment</summary>
-          ```
-          #- EveryVoice Diagnostic information
-          #- EveryVoice version: 
-          #- Python version: 
-          #- System: 
-          ```
+        <summary>Current environment</summary>
+        <pre>
+        # Please paste the output of `everyvoice --diagnostic` here
+        # EveryVoice Diagnostic information
+        </pre>
         </details>
     validations:
       required: false
