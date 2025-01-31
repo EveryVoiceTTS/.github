@@ -34,7 +34,8 @@ body:
       label: How to reproduce the bug
       description: >
         Provide steps and example code here to reproduce the bug.
-      placeholder: |
+      placeholder: "# Provide enough code to reproduce the problems"
+      value: |
         ```python
         # Sample code to reproduce the problem
         ```
